@@ -1,15 +1,15 @@
 # ASSOCIAÇÃO 
 
 Table Father 
--id
--name
+- id
+- name
 
 Table Child
--id
--name
--father_id 
+- id
+- name
+- father_id 
 
->> Terminal do projeto: 
+> Terminal do projeto: 
 
 `rails g model Father name`
 `rails g model Child name father:references`
