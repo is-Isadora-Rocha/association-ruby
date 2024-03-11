@@ -1,24 +1,15 @@
-# README
+# ASSOCIAÇÃO 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Table Father 
+-id
+-name
 
-Things you may want to cover:
+Table Child
+-id
+-name
+-father_id 
 
-* Ruby version
+>> Terminal do projeto: 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`rails g model Father name`
+`rails g model Child name father:references`
